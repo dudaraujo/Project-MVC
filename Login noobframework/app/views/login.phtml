@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+	* {
+		padding: 0;
+        margin: 0;
+        outline: 0;
+        box-sizing: border-box;
+	}
+
+	body {
+		background: #8a2be2;
+		color: white;
+		font-family: arial;
+	}
+
+	input {
+		height: 55px;
+		width: 400px;
+		margin: 10px;
+		border-radius: 30px;
+		border:1.2px solid white;
+		font-size: 16pt;
+		padding: 10px 20px;
+		background-color: #8a2be2;
+		color: white;
+		outline: none;
+	}
+
+	div#corpo-form {
+		width: 420px;
+		margin: 130px auto;
+	}
+
+	div#corpo-form h1 {
+		text-align: center;
+		padding: 20px;
+	}
+
+	a {
+		color: white;
+		text-align: center;
+		display: block;
+	}
+
+	input[type=submit] {
+		background-color: #FF0066;
+		border: none;
+	}
+
+	::-webkit-input-placeholder { 
+	color: #fff;
+	}
+
+	:-moz-placeholder {
+	color: #fff;
+	}
+  </style>
+</head>
+<body>
+<div id="corpo-form">
+	<h1>Entrar</h1>
+	<form method="POST">
+		<input type="email" placeholder="Usuário" name="email">
+		<input type="password" placeholder="Senha" name="senha">
+		<input type="submit" value="ACESSAR">
+		<a><strong> Cadastre-se!</strong></a>
+	</form>
+</div>
+</body>
+</html>
